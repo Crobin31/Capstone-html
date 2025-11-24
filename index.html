@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <link rel=”stylesheet” href=”./style.css”/>
+    <style>
+      .bg-box {
+        height: 400px;
+        width: 100vw; /* exactly the viewport width */
+        background-image: url("./images/rocket.png");
+        background-size: cover;
+        background-position: left center;
+        background-repeat: no-repeat;
+
+        margin-left: 50%;
+        transform: translateX(
+          -50%
+        ); /* centers the 100vw div inside any parent */
+      }
+
+      .outer-space {
+        width: 100vw; /* exactly the viewport width */
+        background-image: url("./images/space-galaxy-background.jpg");
+        background-size: cover;
+        background-position: left center;
+        background-repeat: no-repeat;
+
+        margin-left: 50%;
+        transform: translateX(
+          -50%
+        ); /* centers the 100vw div inside any parent */
+      }
+
+      .mid-header {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!--HEADER-->
+    <section>
+      <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-5 fw-bold text-body-emphasis">I'm Cj</h1>
+        <div class="col-lg-6 mx-auto">
+          <div class="lead mb-4">I'm a Programmer</div>
+        </div>
+        <p class="bg-box"></p>
+      </div>
+    </section>
+
+    <!--MAIN PICTURE-->
+    <section>
+      <div class="px-4 py-5 my-5 text-center">
+        <img
+          class="d-block mx-auto mb-4"
+          src="./images/cj.jpg"
+          alt=""
+          width="72"
+          height="90"
+          style="border-radius: 50%"
+        />
+        <h1 class="display-5 fw-bold text-body-emphasis">Hello</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            I am a Web Developer and up and coming game designer. I plan to
+            start my own company soon. I ❤️ video games, coding and hanging with
+            2 cats.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--MID-->
+    <div class="mid-header">
+      <h2 style="color: red">My Skills</h2>
+    </div>
+
+    <!--BODY-->
+    <section style="transform: scale(0.7)">
+      <div class="row flex-lg-row align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="./images/webdesign.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3" style="color: red;">
+            Web Design
+          </h1>
+          <p class="lead">
+            design clean, modern, and responsive websites using tools like
+            Bootstrap and custom CSS. I focus on creating layouts that look
+            great on any device, with smooth user experiences, intuitive
+            navigation, and visually appealing interfaces. My goal is to bring
+            ideas to life through both functional and aesthetic design.
+          </p>
+        </div>
+      </div>
+      <!---->
+
+      <div class="row flex-lg-row align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="./images/videogame.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3" style="color: red">Gaming</h1>
+          <p class="lead">
+            I have a passion for gaming and game development, especially
+            storytelling and world-building. I create characters, dialogue,
+            environments, and gameplay systems using engines like RPG Maker MV.
+            I enjoy designing immersive experiences that blend creativity,
+            strategy, and emotional depth.
+          </p>
+        </div>
+      </div>
+
+      <!---->
+
+      <div class="row flex-lg-row align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="./images/python.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3" style="color: red">
+            Python(one day)
+          </h1>
+          <p class="lead">
+            I’m actively learning Python and building a strong foundation for
+            future projects in automation, data analysis, and backend
+            development. My goal is to apply Python toward real-world
+            problem-solving — from small scripts to full application features as
+            my skills grow.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--CONTACT ME-->
+    <section>
+      <div class="px-2 py-2 my-1 text-center">
+        <img
+          class="d-block mx-auto mb-4"
+          src="./images/spaceman.png"
+          alt=""
+          width="200"
+          height="200"
+          style="border-radius: 50%"
+        />
+        <h1 class="display-5 fw-bold text-body-emphasis">Get In Touch</h1>
+        <h2 class="text-body-emphasis">Like Gaming and Coding?</h2>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Like Gaming and Coding as much as I do?, Contact me, i'm always up
+            for a good coding or gaming session.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button
+              type="button"
+              class="btn btn-primary btn-lg px-4 gap-3"
+              fdprocessedid="svznne"
+              style="background-color: red"
+            >
+              Contact Me
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+    <section class="outer-space">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <a
+              href="/"
+              class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+              aria-label="Bootstrap"
+            >
+              <svg class="bi" width="30" height="24" aria-hidden="true">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <span class="mb-3 mb-md-0" style="color: white"
+              >© 2025 Company, Inc</span
+            >
+          </div>
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#" aria-label="Instagram"
+                ><svg class="bi" width="24" height="24" aria-hidden="true">
+                  <use xlink:href="#instagram"></use></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#" aria-label="Facebook"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
