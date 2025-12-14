@@ -14,8 +14,17 @@
     />
 
     <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=golf_course"
+    />
 
     <!--Custom font path-->
+    <link rel="stylesheet" href="./style.css"/>
     <style>
       /*Custom Font i'm Trying to Load*/
 
@@ -94,19 +103,24 @@
       <div class="px-4 py-5 my-5 text-center">
         <img
           class="d-block mx-auto mb-4"
-          src="./images/cj.jpg"
+          src="./images/digitalme.jpg"
           alt=""
-          width="72"
-          height="90"
+          width="120"
+          height="120"
           style="border-radius: 50%"
         />
         <h1 class="display-5 fw-bold text-body-emphasis">Hello</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">
-            I am a Web Developer and up and coming game designer. I plan to
-            start my own company soon. I ❤️ video games, coding and hanging with
-            my 2 cats.
-          </p>
+           I'm a passionate Web Developer and Aspiring Game Designer who thrives on solving complex problems and translating creative ideas into interactive digital experiences.</p>
+
+My approach combines strong technical foundations with a keen eye for user experience. I have hands-on experience building modern, responsive, and functional interfaces using:
+
+Core Web Technologies: HTML, CSS, and JavaScript.
+
+Frameworks & Libraries: Bootstrap, jQuery, and React.
+
+I am driven by the goal of launching my own company, blending my love for efficient coding with immersive game design. When I'm not developing, I enjoy a good coding or gaming session—often with the company of my two cats!</p>
         </div>
       </div>
     </section>
@@ -194,6 +208,68 @@
         </div>
       </div>
     </section>
+
+    <!--MY PROJECTS-->
+    <section class="d-flex row flex-lg-row align-items-center g-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="mb-4 vintage" style="color: red">My Projects</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center fw-bold" style="color: red">
+            <h3>Dice Game</h3>
+            <section class="dice-body container py-4">
+              <div class="row">
+                <div class="col-12 text-center">
+                  <h1 class="mb-4 dice-h1">Refresh Me</h1>
+                </div>
+              </div>
+
+              <div
+                class="row d-flex justify-content-center align-items-center mb-5"
+              >
+                <div class="dice col-6 col-md-4 text-center">
+                  <p class="fw-bold dice-p">Player 1</p>
+                  <img
+                    class="img-fluid dice-img"
+                    id="dice1"
+                    src="./images/dice6.png"
+                    alt="Dice for Player 1"
+                  />
+                </div>
+
+                <div class="dice col-6 col-md-4 text-center">
+                  <p class="fw-bold dice-p">Player 2</p>
+                  <img
+                    class="img-fluid dice-img"
+                    id="dice2"
+                    src="./images/dice6.png"
+                    alt="Dice for Player 2"
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12 text-center roller">
+                  <button class="btn btn-danger btn-lg dice-button" onclick="roll()">
+                    ROLL
+                  </button>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-12 text-center">
+                  <footer class="text-muted dice-footer">www 🎲 App Brewery 🎲 com</footer>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--CONTACT ME-->
     <section>
       <div class="px-2 my-1 text-center">
@@ -269,5 +345,6 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js" charset="utf-8"></script>
   </body>
 </html>
