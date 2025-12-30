@@ -180,6 +180,33 @@
       <div class="row flex-lg-row align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
           <img
+            src="./images/android.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3" style="color: red">
+            iOS and Swift
+          </h1>
+          <p class="lead">
+            I have a strong interest in iOS development and enjoy building
+            intuitive, responsive mobile applications using Swift. I focus on
+            clean architecture, smooth user interactions, and thoughtful design
+            to create experiences that feel natural and polished on Apple
+            devices.
+          </p>
+        </div>
+      </div>
+
+      <!---->
+
+      <div class="row flex-lg-row align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
             src="./images/videogame.png"
             class="d-block mx-lg-auto img-fluid"
             alt="Bootstrap Themes"
@@ -234,13 +261,18 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-        <img src="./images/myprojects.png" class="img-fluid" style="max-width: 280px;" alt="My Projects" />
+            <img
+              src="./images/myprojects.png"
+              class="img-fluid"
+              style="max-width: 280px"
+              alt="My Projects"
+            />
           </div>
         </div>
         <div class="row">
           <div class="col-12 text-center fw-bold" style="color: red">
             <h3>Dice Game</h3>
-            <section class="dice-body  dice-game-section container py-4">
+            <section class="dice-body dice-game-section container py-4">
               <div class="row">
                 <div class="col-12 text-center">
                   <h1 class="mb-4 dice-h1">Refresh Me</h1>
@@ -330,6 +362,107 @@
       </div>
     </section>
 
+    <!--CARD GAME-->
+    <section>
+      <!--header-->
+      <div class="container text-center">
+        <div class="row mb-4">
+          <div class="col">
+            <h1 class="vintage2 display-5" style="color: red">
+              Matching Card Game
+            </h1>
+            <h2 class="vintage2" id="wintext"></h2>
+          </div>
+        </div>
+        <!--DEBUG-->
+        <div class="row mb-4 d-none">
+          <div class="col d-flex justify-content-center flex-wrap gap-2">
+          <img
+            id="debug1"
+            src="images/animals/animalback.png"
+            style="width: 100px; height: auto"
+          />
+          <img
+            id="debug2"
+            src="images/animals/animalback.png"
+            style="width: 100px; height: auto"
+          />
+          </div>
+        </div>
+        <!--firstrow-->
+        <div class="d-flex justify-content-center flex-wrap gap-2 mb-3">
+          <img
+            id="card1"
+            class="cardimg"
+            src="images/animals/animalback.png"
+            style="width: 100px; height: auto"
+          />
+          <img
+            id="card2"
+            class="cardimg"
+            src="images/animals/animalback.png"
+            style="width: 100px; height: auto"
+          />
+          <img
+            id="card3"
+            class="cardimg"
+            src="images/animals/animalback.png"
+            style="width: 100px; height: auto"
+          />
+          <img
+            id="card4"
+            class="cardimg"
+            src="images/animals/animalback.png"
+            style="width: 100px; height: auto"
+          />
+          <img
+            id="card5"
+            class="cardimg"
+            src="images/animals/animalback.png"
+            style="width: 100px; height: auto"
+          />
+        </div>
+        <!--secondrow-->
+        <div class="d-flex justify-content-center flex-wrap gap-2">
+          <img
+            id="card6"
+            class="cardimg"
+            src="images/animals/animalback.png"
+            style="width: 100px; height: auto"
+          />
+          <img
+            id="card7"
+            class="cardimg"
+            src="images/animals/animalback.png"
+            style="width: 100px; height: auto"
+          />
+          <img
+            id="card8"
+            class="cardimg"
+            src="images/animals/animalback.png"
+            style="width: 100px; height: auto"
+          />
+          <img
+            id="card9"
+            class="cardimg"
+            src="images/animals/animalback.png"
+            style="width: 100px; height: auto"
+          />
+          <img
+            id="card10"
+            class="cardimg"
+            src="images/animals/animalback.png"
+            style="width: 100px; height: auto"
+          />
+        </div>
+        <div class="row mb-4 d-none">
+          <div class="col d-flex justify-content-center">
+            <button style="width: 100px; height: auto" id="flip">FLIP</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--CONTACT ME-->
     <section>
       <div class="px-2 my-1 text-center">
@@ -351,6 +484,7 @@
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
             <button
               type="button"
+              id="tocontact"
               class="btn btn-primary btn-lg px-4 gap-3"
               fdprocessedid="svznne"
               style="background-color: red"
