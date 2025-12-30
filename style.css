@@ -1,25 +1,24 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 .dice-body {
-  background-color: #393E46;
+  background-color: #393e46;
 }
 
 .dice-h1 {
   margin: 30px;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
-  color: #4ECCA3;
+  color: #4ecca3;
 }
 
 .dice-p {
   font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
 }
 
 .dice-img {
@@ -28,47 +27,46 @@
 
 .dice-footer {
   margin-top: 5%;
-  color: #EEEEEE;
+  color: #eeeeee;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
-
+  font-family: "Indie Flower", cursive;
 }
 
-.roller{
+.roller {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   position: relative;
-  top: 20px; 
+  top: 20px;
   transform: scale(2);
 }
 
-/*DRUM SET*/ 
+/*DRUM SET*/
 .w {
-background-image: url(images/tom1.png);
+  background-image: url(images/tom1.png);
 }
 
 .a {
-background-image: url(images/tom2.png);
+  background-image: url(images/tom2.png);
 }
 
 .s {
-background-image: url(images/tom3.png);
+  background-image: url(images/tom3.png);
 }
 
 .d {
-background-image: url(images/tom4.png);
+  background-image: url(images/tom4.png);
 }
 
 .j {
-background-image: url(images/snare.png);
+  background-image: url(images/snare.png);
 }
 
 .k {
-background-image: url(images/crash.png);
+  background-image: url(images/crash.png);
 }
 
 .l {
-background-image: url(images/kick.png);
+  background-image: url(images/kick.png);
 }
 
 .set {
@@ -81,7 +79,7 @@ background-image: url(images/kick.png);
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+  box-shadow: 0 3px 4px 0 #dbedf3;
   opacity: 0.5;
 }
 
@@ -91,13 +89,13 @@ background-image: url(images/kick.png);
 
 .drum {
   outline: none;
-  border: 10px solid #404B69;
+  border: 10px solid #404b69;
   font-size: 5rem;
-  font-family: 'Arvo', cursive;
+  font-family: "Arvo", cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
+  color: #da0463;
+  text-shadow: 3px 0 #dbedf3;
   border-radius: 15px;
   display: inline-block;
   width: 150px;
@@ -109,17 +107,45 @@ background-image: url(images/kick.png);
 
 .drum-h1 {
   font-size: 5rem;
-  color: #DBEDF3;
+  color: #dbedf3;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  text-shadow: 3px 0 #da0463;
 }
 
 .drumset-section {
   text-align: center;
   background-color: #283149;
-  border: solid black 2px; 
+  border: solid black 2px;
 }
 
-.dice-game-section{
-  border: solid black 2px; 
+.dice-game-section {
+  border: solid black 2px;
+}
+
+@font-face {
+  font-family: "Robotic";
+  src: url("./fonts/Condiment-Regular.ttf") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+.vintage2 {
+  font-family: "Robotic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Electrolize";
+  src: url("./fonts/Electrolize-Regular.ttf") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+.Electrolize2 {
+  font-family: "Electrolize", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.matched{
+  
 }
